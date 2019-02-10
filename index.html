@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  </head>
+
+  <body style="background-image: url('https://media.giphy.com/media/s19QRvPCh6UIo/giphy.gif'); background-repeat: repeat;">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-10">
+          <div class="jumbotron" style="text-align: center;">
+            <div class="container">
+              <h1 class="display-4">GifTastic</h1>
+              <p class="lead">ES6	&amp; jQuery powered food search paradise!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5">
+          <div class="card bg-light">
+            <div class="card-body">
+              <h5 class="card-title">Search GIPHY</h5>
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="gif-search" placeholder="What's your favorite food?">
+                </div>
+                <button type="submit" id="gif-submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="card bg-light">
+            <div class="card-body">
+              <h5 class="card-title">Previous Searches</h5>
+              <div id="button-block"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10">
+          <div class="card-columns" id="gif-block" style="display:inline-block; margin: 2rem;"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+  </body>
+</html>
